@@ -22,7 +22,7 @@ void RASAFilterPlugin::output(std::string file) {
    std::string command = "export OLDPATH=${PYTHONPATH}; ";
    command += "export PYTHONPATH=/usr/local/lib64/python3.9/site-packages/:${PYTHONPATH}; ";
    command += "python3.9 plugins/RASAFilter/runRASAFilter.py ";
-   command += PluginManager::addPrefix(parameters["sqldatabase"]) + " ";
+   command += parameters["sqldatabase"] + " ";
    command += parameters["pdbinput"] + " ";
    command += parameters["rasa_span"] + " ";
    command += parameters["rasa"] + " ";

@@ -1,0 +1,2 @@
+Prefix plugins/RASAFilter/example/
+Plugin RASAFilter inputfile parameters.txt outputfile EPI_SEQ_span_filt_acc_hits

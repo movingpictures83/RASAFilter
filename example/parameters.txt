@@ -1,0 +1,5 @@
+sqldatabase	/biorg/data/DB/Epitopedia/epitopedia.sqlite3
+pdbinput	6VXX_A
+rasa_span	3
+rasa	0.20
+csvfile	EPI_SEQ_span_filt_hits_6VXX_A.tsv
